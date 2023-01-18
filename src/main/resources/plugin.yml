@@ -1,0 +1,22 @@
+name: PlayerHome
+version: '${version}'
+main: skh6075.playerhome.PlayerHome
+api-version: 1.19
+authors: [ skh6075 ]
+website: https://github.com/skh6075
+
+commands:
+  sethome:
+    description: 셋홈 명령어입니다.
+    aliases: ['홈설정', '집설정', '셋홈']
+    permission: command.sethome
+  home:
+    description: 홈 명령어입니다.
+    aliases: ['집', '홈']
+    permission: command.home
+
+permissions:
+  command.sethome:
+    default: true
+  command.home:
+    default: true
